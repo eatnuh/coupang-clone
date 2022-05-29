@@ -1,5 +1,5 @@
 dependencies {
-    implementation project(":cp-common")
+    implementation(project(':cp-domain'))
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 }

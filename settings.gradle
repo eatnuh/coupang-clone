@@ -1,8 +1,8 @@
 rootProject.name = 'coupang-clone'
 
-include 'cp-service-user'
 include 'cp-service-seller'
 include 'cp-domain'
 include 'cp-common'
 include 'cp-api'
+include 'cp-service-member'
 
