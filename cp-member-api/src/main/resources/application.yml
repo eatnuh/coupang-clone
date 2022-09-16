@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: "cp-member-api"
+  profiles:
+    include:
+      - domain-rds
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+server:
+  port: 8090
+  tomcat:
+    uri-encoding: utf-8
