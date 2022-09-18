@@ -37,7 +37,7 @@ coupang-clone
 
 ## 3. 모듈간 의존성
 ```
-cp-member-api ┳▶ cp-domain-rds━▶ cp-common
+cp-member-api ┳▶ cp-domain-rds ━▶ cp-common
 cp-seller-api ┛
 ```
 
